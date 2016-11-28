@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex TermPaper"] 1479762448 "TermPaper.aux" "TermPaper.bbl" "TermPaper" 1479762564
-  "/usr/local/texlive/2015/texmf-dist/bibtex/bib/gloss/sample.bib" 1136766823 2721 b88105703bd616b4f9867992219afb8a ""
+["bibtex TermPaper"] 1479866953 "TermPaper.aux" "TermPaper.bbl" "TermPaper" 1479866954
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "TermPaper.aux" 1479762564 171 a66e6ef93fa6b83bdd06af2aadab917f ""
+  "TermPaper.aux" 1479866954 195 24aa5b6305a1f12a936c501e2b3cfa3e ""
   "TermPaper.bcf" 0 -1 0 ""
+  "TermPaper_ref.bib" 1268689044 13050 2ca1760567648a5bc4744e3a792261b9 ""
   (generated)
   "TermPaper.blg"
   "TermPaper.bbl"
-["pdflatex"] 1479762564 "TermPaper.tex" "TermPaper.pdf" "TermPaper" 1479762564
+["pdflatex"] 1479866953 "TermPaper.tex" "TermPaper.pdf" "TermPaper" 1479866954
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136768653 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
@@ -41,6 +41,7 @@
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty" 1454284088 4572 634fcdf7e9df867d6d54f84638930408 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/size11.clo" 1454284088 9195 7ea0b8c33c5eac1952bee6ba996008f6 ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def" 1454284088 9927 925418b4e40d02671b4728df100ec5ef ""
+  "/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty" 1284422013 40502 e003406220954b0716679d7928aedd8a ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty" 1454284088 14337 b66dff1d80f6c21e70858a2b3c2d327d ""
   "/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty" 1428932888 8125 557ab9f1bfa80d369fb45a914aa8a3b4 ""
@@ -63,12 +64,13 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1457996863 1863449 9930cbbe9c1cd31abf89eabf56fa24cc ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1457996937 3859009 df7b14ae8009a8c1be21fe80b943ef34 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "TermPaper.aux" 1479762564 171 a66e6ef93fa6b83bdd06af2aadab917f ""
-  "TermPaper.bbl" 1479762448 49 0eba253fc001332e731e8aba3f23127b "bibtex TermPaper"
-  "TermPaper.tex" 1479762563 8357 0c20616d261b3326c190ec1be4246f70 ""
+  "TermPaper.aux" 1479866954 195 24aa5b6305a1f12a936c501e2b3cfa3e ""
+  "TermPaper.bbl" 1479866953 264 34626c56edf43e7aa5871db445c87b64 "bibtex TermPaper"
+  "TermPaper.tex" 1479866952 8393 b093061a60962faa7701cc4260573152 ""
+  "nphys2835-f1.jpg" 1479866641 215279 55fe1ff78b0f4cd9f8ccba7cadf99414 ""
   (generated)
   "TermPaperNotes.bib"
   "TermPaper.log"
+  "TermPaper.aux"
   "TermPaper.pdf"
   "TermPaper.out"
-  "TermPaper.aux"
