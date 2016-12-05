@@ -1,137 +1,228 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Thin Sectioned Essay
-% LaTeX Template
-% Version 1.0 (3/8/13)
+%% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
 %
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
 %
-% Original Author:
-% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many overlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass[aps,pre,preprint,groupedaddress]{revtex4-1}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-1}
+%\documentclass[aps,prl,reprint,groupedaddress]{revtex4-1}
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
-
-\usepackage[a4paper]{geometry}
-
-\usepackage[protrusion=true,expansion=true]{microtype} % Better typography
-\usepackage{graphicx} % Required for including pictures
-\usepackage{wrapfig} % Allows in-line images
-
-\usepackage{mathpazo} % Use the Palatino font
-\usepackage[T1]{fontenc} % Required for accented characters
-\linespread{2} % Change line spacing here, Palatino benefits from a slight increase by default
-
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+\bibliographystyle{apsrev4-1}
+\usepackage{graphicx}
 \usepackage{float}
-
-\makeatletter
-\renewcommand\@biblabel[1]{\textbf{#1.}} % Change the square brackets for each bibliography item from '[1]' to '1.'
-\renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
-
-\renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
-\begin{flushright} % Right align
-{\LARGE\@title} % Increase the font size of the title
-
-\vspace{50pt} % Some vertical space between the title and author name
-
-{\large\@author} % Author name
-\\\@date % Date
-
-\vspace{40pt} % Some vertical space between the author block and abstract
-\end{flushright}
-}
-
-%----------------------------------------------------------------------------------------
-%	TITLE
-%----------------------------------------------------------------------------------------
-
-\title{\textbf{Topological Mechanics \\and Topological Phononic Phases}} % Title
-
-\author{\textsc{Shang Zhang} % Author
-\\{\textit{University of Michigan}}} % Institution
-
-\date{\today} % Date
-
-%----------------------------------------------------------------------------------------
+\usepackage{amsmath}
 
 \begin{document}
 
-\maketitle % Print the title section
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
 
-%----------------------------------------------------------------------------------------
-%	ABSTRACT AND KEYWORDS
-%----------------------------------------------------------------------------------------
+%Title of paper
+\title{\textbf{Topological Mechanics and Topological Phononic Phases}}
 
-%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{Shang Zhang}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{Department of Physics, University of Michigan}
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{\today}
 
 \begin{abstract}
-Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros at, porttitor ipsum. Praesent consequat urna a lacus lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices id nulla. Phasellus placerat a tellus a malesuada.
+Electronic topological insulators have inspired the design of new mechanical systems that could soon find real-life applications.
 \end{abstract}
 
-\hspace*{3,6mm}\textit{Keywords:} topological mechanics, floppy modes , isostatic % Keywords
+% insert suggested PACS numbers in braces on next line
+\pacs{}
+% insert suggested keywords - APS authors don't need to do this
+%\keywords{}
 
-\vspace{30pt} % Some vertical space between the abstract and first section
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\maketitle
 
-%----------------------------------------------------------------------------------------
-%	ESSAY BODY
-%----------------------------------------------------------------------------------------
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+\section{Introduction}
+% Put \label in argument of \section for cross-referencing
+%\section{\label{}}
+Creating artificial materials that control electrons, photons, sound waves or mechanical energy is a prime focus of modern materials science. In the past few years, a new paradigm is emerging with the application of ideas from topology, the mathematics describing properties that are unchanged by smooth deformations. People discovered interesting phenomenology of electrons in topological insulators, which are a kind of material with non-trivial topological order that behaves as an insulator in its interior but whose surface contains conducting states, meaning that electrons can only move along the surface of the material\cite{cite-key1,cite-key2,cite-key3}.
 
-\section*{Introduction}
+Following an explosion of studying in topological phases in hard condensed matter, this topological approach has recently been used from the quantum realm of electrons to the world of classical mechanical systems.  Electronic topological insulators have inspired the design of new topological mechanical systems that could lead to new design principles for metamaterials\cite{huber2016topological}. In this review, we will try to establish the connections between topological electrons systems to classical mechanical systems based on recent research work, as well as perspectives in this field.
 
-This statement requires citation \cite{Bire82}; this one does too \cite{Bire82}. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dictum lacus sem, ut varius ante dignissim ac. Sed a mi quis lectus feugiat aliquam. Nunc sed vulputate velit. Sed commodo metus vel felis semper, quis rutrum odio vulputate. Donec a elit porttitor, facilisis nisl sit amet, dignissim arcu. Vivamus accumsan pellentesque nulla at euismod. Duis porta rutrum sem, eu facilisis mi varius sed. Suspendisse potenti. Mauris rhoncus neque nisi, ut laoreet augue pretium luctus. Vestibulum sit amet luctus sem, luctus ultrices leo. Aenean vitae sem leo.
+\subsection{Analogy between Quantum and Newton's Mechanics}
 
-Nullam semper quam at ante convallis posuere. Ut faucibus tellus ac massa luctus consectetur. Nulla pellentesque tortor et aliquam vehicula. Maecenas imperdiet euismod enim ut pharetra. Suspendisse pulvinar sapien vitae placerat pellentesque. Nulla facilisi. Aenean vitae nunc venenatis, vehicula neque in, congue ligula.
+At first sight, electronic systems described by quantum mechanics seem totally different to mechanical modes or phonons described by Newton's equations of motion. But it is not always the case.
 
-Pellentesque quis neque fringilla, varius ligula quis, malesuada dolor. Aenean malesuada urna porta, condimentum nisl sed, scelerisque nisi. Suspendisse ac orci quis massa porta dignissim. Morbi sollicitudin, felis eget tristique laoreet, ante lacus pretium lacus, nec ornare sem lorem a velit. Pellentesque eu erat congue, ullamcorper ante ut, tristique turpis. Nam sodales mi sed nisl tincidunt vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+In 1985, it was discovered that similar geometric phases to Berry's phase \cite{cite-key5} occurred in classical systems with single or few mechanical modes \cite{cite-key9}, which illustrates the appearing of geometric nature of phases in classical systems.
 
-%------------------------------------------------
+Then with the emergence of topological insulator, it turned out that the bulk and edge states of phononic systems can display the same unusual properties seen in the topological insulators\cite{cite-key11,cite-key12}. So it seems clearer to us that there's some analogy between quantum and newton's mechanics that introduces the similar topological properties in electronic and phononic systems.
 
-\section*{1D Model}
+To illustrate the analogy between quantum and Newton's mechanics, consider the equation of motions in a set of coupled simple harmonic oscillators,
+\begin{align}
+\ddot{x}_i &= -D_{ij}x_j+A_{ij}\dot{x}_j
+\label{eq1}
+\end{align}
 
-Cras gravida, est vel interdum euismod, tortor mi lobortis mi, quis adipiscing elit lacus ut orci. Phasellus nec fringilla nisi, ut vestibulum neque. Aenean non risus eu nunc accumsan condimentum at sed ipsum.
+Where the dynamical matrix $D$ is real and positive definite, and the skew-symmetric $A$ describes the coupling between velocities and positions. Then one can rewrite equation (\ref{eq1}) to,
 
-\begin{figure}[H] % Inline image example
+\begin{align}
+i\frac{\partial}{\partial t}
+\begin{pmatrix}
+\sqrt{D}^{T}x\\
+i\dot{x}
+\end{pmatrix}
+&=
+\begin{pmatrix}
+0 & \sqrt{D}^{T}\\
+\sqrt{D} & iA
+\end{pmatrix}
+\begin{pmatrix}
+\sqrt{D}^{T}x\\
+i\dot{x}
+\end{pmatrix}
+\label{eq2}
+\end{align}
+
+Equation (\ref{eq2}) transfers Newton's equations into Hermitian eigenvalue equations, in similar form to Schrodinger equation.
+
+\begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{nphys2835-f1.jpg}
-\caption{SSH Model}
+\includegraphics[scale=0.4]{nphys3801-f1.jpg}
+\caption{\label{}}
 \end{figure}
 
-Aliquam fringilla non diam sed varius. Suspendisse tellus felis, hendrerit non bibendum ut, adipiscing vitae diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis purus eget nisl scelerisque, commodo rhoncus lacus porta. Vestibulum vitae turpis tincidunt, varius dolor in, dictum lectus. Aenean ac ornare augue, ac facilisis purus. Sed leo lorem, molestie sit amet fermentum id, suscipit ut sem. Vestibulum orci arcu, vehicula sed tortor id, ornare dapibus lorem. Praesent aliquet iaculis lacus nec fermentum. Morbi eleifend blandit dolor, pharetra hendrerit neque ornare vel. Nulla ornare, nisl eget imperdiet ornare, libero enim interdum mi, ut lobortis quam velit bibendum nibh.
+Three routes to present topological mechanical systems,
+\begin{itemize}
+\item Capitalize on the intrinsic particle–hole symmetry
+\item Engineer a topological dynamical matrix $D$ directly
+\item A properly engineered $A$ can give rise to systems with broken time-reversal symmetry, described by a Chern number
+\end{itemize}
 
-\section*{Deformed Kagome Lattice Model}
+\section{Zero-frequency}
 
-Morbi tempor congue porta. Proin semper, leo vitae faucibus dictum, metus mauris lacinia lorem, ac congue leo felis eu turpis. Sed nec nunc pellentesque, gravida eros at, porttitor ipsum. Praesent consequat urna a lacus lobortis ultrices eget ac metus. In tempus hendrerit rhoncus. Mauris dignissim turpis id sollicitudin lacinia. Praesent libero tellus, fringilla nec ullamcorper at, ultrices id nulla. Phasellus placerat a tellus a malesuada.
+\section{High-frequency}
 
-%------------------------------------------------
+% If in two-column mode, this environment will change to single-column
+% format so that long equations can be displayed. Use
+% sparingly.
+%\begin{widetext}
+% put long equation here
+%\end{widetext}
 
-\section*{Conclusion}
+% figures should be put into the text as floats.
+% Use the graphics or graphicx packages (distributed with LaTeX2e)
+% and the \includegraphics macro defined in those packages.
+% See the LaTeX Graphics Companion by Michel Goosens, Sebastian Rahtz,
+% and Frank Mittelbach for instance.
+%
+% Here is an example of the general form of a figure:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Use the figure* environment if the figure should span across the
+% entire page. There is no need to do explicit centering.
 
-Fusce in nibh augue. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In dictum accumsan sapien, ut hendrerit nisi. Phasellus ut nulla mauris. Phasellus sagittis nec odio sed posuere. Vestibulum porttitor dolor quis suscipit bibendum. Mauris risus lectus, cursus vitae hendrerit posuere, congue ac est. Suspendisse commodo eu eros non cursus. Mauris ultrices venenatis dolor, sed aliquet odio tempor pellentesque. Duis ultricies, mauris id lobortis vulputate, tellus turpis eleifend elit, in gravida leo tortor ultricies est. Maecenas vitae ipsum at dui sodales condimentum a quis dui. Nam mi sapien, lobortis ac blandit eget, dignissim quis nunc.
+% Surround figure environment with turnpage environment for landscape
+% figure
+% \begin{turnpage}
+% \begin{figure}
+% \includegraphics{}%
+% \caption{\label{}}
+% \end{figure}
+% \end{turnpage}
 
-\begin{enumerate}
-\item First numbered list item
-\item Second numbered list item
-\end{enumerate}
+% tables should appear as floats within the text
+%
+% Here is an example of the general form of a table:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+% \begin{tabular}{} command.
+% The ruledtabular enviroment adds doubled rules to table and sets a
+% reasonable default table settings.
+% Use the table* environment to get a full-width table in two-column
+% Add \usepackage{longtable} and the longtable (or longtable*}
+% environment for nicely formatted long tables. Or use the the [H]
+% placement option to break a long table (with less control than 
+% in longtable).
+% \begin{table}%[H] add [H] placement to break table across pages
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% Lines of table here ending with \\
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
 
-Donec luctus tincidunt mauris, non ultrices ligula aliquam id. Sed varius, magna a faucibus congue, arcu tellus pellentesque nisl, vel laoreet magna eros et magna. Vivamus lobortis elit eu dignissim ultrices. Fusce erat nulla, ornare at dolor quis, rhoncus venenatis velit. Donec sed elit mi. Sed semper tellus a convallis viverra. Maecenas mi lorem, placerat sit amet sem quis, adipiscing tincidunt turpis. Cras a urna et tellus dictum eleifend. Fusce dignissim lectus risus, in bibendum tortor lacinia interdum.
+% Surround table environment with turnpage environment for landscape
+% table
+% \begin{turnpage}
+% \begin{table}
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
+% \end{turnpage}
 
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
+% Specify following sections are appendices. Use \appendix* if there
+% only one appendix.
+%\appendix
+%\section{}
 
-\bibliographystyle{unsrt}
+% If you have acknowledgments, this puts in the proper section head.
+%\begin{acknowledgments}
+% put your acknowledgments here.
+%\end{acknowledgments}
 
-\bibliography{TermPaper_ref.bib}
-
-%----------------------------------------------------------------------------------------
+% Create the reference section using BibTeX:
+\bibliography{TermPaper}
 
 \end{document}
+%
+% ****** End of file apstemplate.tex ******
+
