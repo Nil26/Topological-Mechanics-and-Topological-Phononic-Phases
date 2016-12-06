@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{9}%
+\begin{thebibliography}{20}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -112,10 +112,115 @@
   {http://dx.doi.org/10.1103/PhysRevE.83.021913} {\bibfield  {journal}
   {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {83}},\
   \bibinfo {pages} {021913} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Ornes}()}]{cite-key13}%
+\bibitem [{\citenamefont {S{\"u}sstrunk}\ and\ \citenamefont
+  {Huber}(2016)}]{susstrunk2016classification}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Ornes}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
-  World}\ }\textbf {\bibinfo {volume} {28}},\ \bibinfo {pages}
-  {33}}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {S{\"u}sstrunk}}\ and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Huber}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv
+  preprint arXiv:1604.01033}\ } (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kane}\ and\ \citenamefont
+  {Lubensky}(2014)}]{cite-key10}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~L.}\ \bibnamefont
+  {Kane}}\ and\ \bibinfo {author} {\bibfnamefont {T.~C.}\ \bibnamefont
+  {Lubensky}},\ }\href {http://dx.doi.org/10.1038/nphys2835} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Phys.}\ }\textbf {\bibinfo {volume}
+  {10}},\ \bibinfo {pages} {39} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph {et~al.}(2014)\citenamefont {Chen},
+  \citenamefont {Upadhyaya},\ and\ \citenamefont {Vitelli}}]{cite-key19}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~G.~G.}\
+  \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Upadhyaya}}, \ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vitelli}},\ }\href {http://dx.doi.org/10.1073/pnas.1405969111} {\bibfield
+  {journal} {\bibinfo  {journal} {Proc. Natl Acad. Sci. USA}\ }\textbf
+  {\bibinfo {volume} {111}},\ \bibinfo {pages} {13004} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Vitelli}\ \emph {et~al.}(2014)\citenamefont
+  {Vitelli}, \citenamefont {Upadhyaya},\ and\ \citenamefont
+  {Chen}}]{cite-key20}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vitelli}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Upadhyaya}},
+  \ and\ \bibinfo {author} {\bibfnamefont {B.~G.~g.}\ \bibnamefont {Chen}},\
+  }\href@noop {} {} (\bibinfo {year} {2014})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paulose}\ \emph {et~al.}(2015)\citenamefont
+  {Paulose}, \citenamefont {Meeussen},\ and\ \citenamefont
+  {Vitelli}}]{cite-key21}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Paulose}}, \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont
+  {Meeussen}}, \ and\ \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Vitelli}},\ }\href {http://dx.doi.org/10.1073/pnas.1502939112} {\bibfield
+  {journal} {\bibinfo  {journal} {Proc. Natl Acad. Sci. USA}\ }\textbf
+  {\bibinfo {volume} {112}},\ \bibinfo {pages} {7639} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}(2016)}]{cite-key22}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~G.~g.}\
+  \bibnamefont {Chen}},\ }\href
+  {http://dx.doi.org/10.1103/PhysRevLett.116.135501} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {116}},\
+  \bibinfo {pages} {135501} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lubensky}\ \emph {et~al.}(2015)\citenamefont
+  {Lubensky}, \citenamefont {Kane}, \citenamefont {Mao}, \citenamefont
+  {Souslov},\ and\ \citenamefont {Sun}}]{lubensky2015phonons}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Lubensky}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Kane}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Mao}}, \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Souslov}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Sun}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Reports on Progress in Physics}\ }\textbf
+  {\bibinfo {volume} {78}},\ \bibinfo {pages} {073901} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Su}\ \emph {et~al.}(1979)\citenamefont {Su},
+  \citenamefont {Schrieffer},\ and\ \citenamefont {Heeger}}]{su1979solitons}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Su}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Schrieffer}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Heeger}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Physical Review
+  Letters}\ }\textbf {\bibinfo {volume} {42}},\ \bibinfo {pages} {1698}
+  (\bibinfo {year} {1979})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2015)\citenamefont {Wang},
+  \citenamefont {Lu},\ and\ \citenamefont {Bertoldi}}]{cite-key29}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Lu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Bertoldi}},\ }\href
+  {http://dx.doi.org/10.1103/PhysRevLett.115.104302} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {115}},\
+  \bibinfo {pages} {104302} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Susstrunk}\ and\ \citenamefont
+  {Huber}(2015)}]{cite-key30}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Susstrunk}}\ and\ \bibinfo {author} {\bibfnamefont {S.~D.}\ \bibnamefont
+  {Huber}},\ }\href {http://dx.doi.org/10.1126/science.aab0239} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {349}},\ \bibinfo {pages} {47} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Xiao}(2015)}]{cite-key31}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Xiao}},\ }\href {http://dx.doi.org/10.1038/nphys3228} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature Phys.}\ }\textbf {\bibinfo {volume} {11}},\
+  \bibinfo {pages} {240} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {He}\ \emph {et~al.}(2015)\citenamefont {He},
+  \citenamefont {Ni}, \citenamefont {Ge}, \citenamefont {Sun}, \citenamefont
+  {Chen}, \citenamefont {Lu}, \citenamefont {Liu}, \citenamefont {Feng},\ and\
+  \citenamefont {Chen}}]{he2015acoustic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {He}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Ni}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Ge}}, \bibinfo {author}
+  {\bibfnamefont {X.-C.}\ \bibnamefont {Sun}}, \bibinfo {author} {\bibfnamefont
+  {Y.-B.}\ \bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {M.-H.}\
+  \bibnamefont {Lu}}, \bibinfo {author} {\bibfnamefont {X.-P.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Feng}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Y.-F.}\ \bibnamefont {Chen}},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint
+  arXiv:1512.03273}\ } (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \end{thebibliography}%
